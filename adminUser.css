@@ -1,0 +1,182 @@
+/* adminUser_View.css */
+
+/*upper header styles*/
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the header */
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Styling the heading 1 */
+  h1 {
+    margin-right: 20px;
+  }
+  
+  /* Styling the logo */
+  #logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Styling the search container */
+  .search-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .search-container form {
+    display: inline-block;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 250px; /* Adjust the width of the search bar */
+  }
+  
+  .search-container input[type="submit"] {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling the navigation */
+  nav ul {
+    list-style: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Styling the header image menu */
+  #header-image-menu {
+    width: 100%; /* Stretches the banner across the page */
+    height: 50vh; /* Occupies around 1/4th (25%) of the page's height */
+  }
+  
+  #header-image-menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Ensures the image covers the entire area */
+  }
+  
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Table Button Styles */
+.table td form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table button {
+    flex: 1;
+    margin: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-info {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
